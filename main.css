@@ -1,63 +1,77 @@
-
-
-body {
-  background-color: white;
-  width: 100%;
-  font-size: 30px;
-}
-
-
 .calculator {
+  display: flex;
+  flex-wrap: wrap;
   width: 400px;
-  background-color:black;
-  display: flex;
-  flex-flow: column wrap;
-  font-size: 30px;
-}
+  height: 590px;
+
+  background-color: white;
+} 
 
 .number-button {
-  flex-grow: 1;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
 }
 
-.operator {
+.button-orange {
   color: white;
-  font-size: 30px;
+  font-size: 40px;
+  width: 100px;
+  height: 100px;
   background-color: #df974c;
-  flex-grow: 1;
+  border: 1px solid black;
 }
 
-.operator:hover {
-  background-color: #df974c;
-
+.button-clear {
+  font-size: 40px;
+  width: 200px;
+  height: 100px;
 }
 
-.operator:active {
-  background-color: #df974c;
+.button-zero {
+  font-size: 40px;
+  width: 300px;
+  height: 100px;
 }
 
-#clear {
-  flex-grow: 2;
-
-}
-
-.zero {
-  flex-grow: 3;
-  background-color: #d8d9db;
-}
-
-#results {
-  color: white;
-  text-align: right;
-}
-
-.number-button {
-  background-color: #d8d9db;
-  display: inline-block;
-  padding: 1px 5px;
-}
-
-.row {
+.results {
   display: flex;
-  flex-direction: row;
-  justify-content:right;
+  justify-content: end;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-right: 20px;
+  width: 380px;
+  height: 40px;
+  font-family: arial;
+  font-size: 40px;
+  color: white;
+  background-color: black;
+}
+
+.row1 {
+  display: flex;
+  font-size: 0;
+  width: 400px;
+  height: 100px;
+}
+
+.row-2 {
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+.row-3 {
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+.row-4 {
+  display: flex;
+  width: 400px;
+  height: 100px;
+}
+.row-5 {
+  display: flex;
+  width: 400px;
+  height: 100px;
 }
